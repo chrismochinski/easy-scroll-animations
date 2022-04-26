@@ -6,20 +6,51 @@
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.75rem;
-    font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
 }
 
 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.75rem;
-    font-weight: 500;
-    display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  display: inline-flex;
+  margin-block: 0;
 }
 
 h2 {
-    font-size: 5em;
+  font-size: 5em;
+  margin-block: 2rem;
+}
+
+a {
+  font-size: 1.5rem;
+  margin-block: 3rem 1rem;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  cursor: pointer;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -2px;
+  left: 0;
+  background-color: black;
+  transform-origin: center;
+  transition: transform 0.32s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
 }
 
 @media (max-width: 991px) {
@@ -27,9 +58,9 @@ h2 {
     max-width: 97vw;
   }
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
   h3 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }

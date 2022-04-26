@@ -8,6 +8,7 @@ const shortDelayMovers = document.querySelectorAll(".short-delay-move"); //delay
 const delayMovers = document.querySelectorAll(".delay-move"); //delay transitions 750ms delay, 1s transition
 const longDelayMovers = document.querySelectorAll(".long-delay-move"); //long delay transitions 1250ms delay, 1s transition
 const extraLongDelayMovers = document.querySelectorAll(".extra-long-delay-move"); //extra long delay transitions 1750ms delay, 1s transition
+const megaLongDelaySlowMovers = document.querySelectorAll(".mega-long-delay-slow-move"); //extra long delay transitions 1750ms delay, 1s transition
 const rotate70Movers = document.querySelectorAll(".rotate-cc-70"); //rotate 70deg from clockwise (rotation is CC)
 
 const observer = new IntersectionObserver((entries) => {
@@ -58,6 +59,11 @@ longDelayMovers.forEach((move) => {
 extraLongDelayMovers.forEach((move) => {
   observer.observe(move);
 });
+
+//MEGA LONG delay + SLOW transitions get class .mega-long-delay-slow-move
+megaLongDelaySlowMovers.forEach((move) => {
+    observer.observe(move);
+  });
 
 //extra fast transitions get class .fast-move
 rotate70Movers.forEach((move) => {

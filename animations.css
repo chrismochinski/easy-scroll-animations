@@ -1,4 +1,3 @@
-
 .from-bottom {
   transition: 1s;
   transform: translateY(100px);
@@ -48,9 +47,6 @@
 
 
 
-
-
-
 .move.show {
   transform: translateY(0) scale(1) rotate(0deg);
   opacity: 1;
@@ -91,9 +87,15 @@
 }
 
 .extra-long-delay-move.show {
-    transform: translateY(0) scale(1) rotate(0deg);
-    opacity: 1;
-    transition: 1s;
-    transition-delay: 1750ms;
-  }
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 1750ms;
+}
 
+.mega-long-delay-slow-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1.75s;
+  transition-delay: 2s;
+}

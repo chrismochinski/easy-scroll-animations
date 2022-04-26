@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .container {
   width: 100%;
   max-width: 80vw;
@@ -5,17 +7,27 @@
   text-align: center;
 }
 
+h4 {
+    font-family: 'Urbanist', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2.25rem;
+    margin-top: 0.25rem;
+    font-family: 'Urbanist', sans-serif;
+  font-size: 2.75rem;
   font-weight: 600;
+  display: inline-flex;
 }
 
 h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.75rem;
-  font-weight: 500;
+font-family: 'Urbanist', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
   display: inline-flex;
+  margin-inline: 0.08rem;
   margin-block: 0;
 }
 
@@ -28,7 +40,7 @@ a {
   font-size: 1.5rem;
   margin-block: 3rem 1rem;
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Urbanist', sans-serif;
   display: inline-block;
   position: relative;
   color: #0087ca;
@@ -47,6 +59,7 @@ a::after {
   transform-origin: center;
   transition: transform 0.32s ease-out;
 }
+
 
 a:hover::after {
   transform: scaleX(1);

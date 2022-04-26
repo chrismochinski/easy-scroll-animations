@@ -1,0 +1,99 @@
+
+.from-bottom {
+  transition: 1s;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.from-top {
+  transition: 1s;
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+.from-left {
+  transition: 1s;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.from-right {
+  transition: 1s;
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.from-0 {
+  transition: 1s;
+  opacity: 0;
+}
+
+.from-small {
+  transition: 1s;
+  transform: scale(0.2);
+  opacity: 0;
+}
+
+.from-large {
+  transition: 1s;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.from-rotate-cc-70 {
+  transition: 1500ms;
+  transform: rotate(70deg) translateX(100px);
+  opacity: 0;
+}
+
+
+
+
+
+
+.move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1s;
+}
+
+.fast-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.slow-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 2.5s;
+}
+
+.short-delay-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 375ms;
+}
+
+.delay-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 750ms;
+}
+
+.long-delay-move.show {
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 1250ms;
+}
+
+.extra-long-delay-move.show {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 1;
+    transition: 1s;
+    transition-delay: 1750ms;
+  }
+

@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 80vw;
+  margin: 10vh auto;
+  text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    display: inline-flex;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 97vw;
+  }
+  h1 {
+      font-size: 2em;
+  }
+  h3 {
+      font-size: 1.5em;
+  }
+}

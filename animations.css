@@ -45,6 +45,12 @@
   opacity: 0;
 }
 
+.from-rotate-c-270-up-right {
+  transition: 1500ms;
+  transform: rotate(270deg) translateX(100px) translateY(100px);
+  opacity: 0;
+}
+
 .move.show {
   transform: translateY(0) scale(1) rotate(0deg);
   opacity: 1;

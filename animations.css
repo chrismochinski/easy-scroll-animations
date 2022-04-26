@@ -51,6 +51,12 @@
   opacity: 0;
 }
 
+
+/*
+
+*/
+
+
 .move.show {
   transform: translateY(0) scale(1) rotate(0deg);
   opacity: 1;

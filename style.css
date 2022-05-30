@@ -74,7 +74,7 @@ p {
 
 @media (max-width: 991px) {
   .container {
-    max-width: 97vw;
+    max-width: 93vw;
   }
   h1 {
     font-size: 2em;

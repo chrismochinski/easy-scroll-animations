@@ -12,7 +12,8 @@ const megaLongDelaySlowMovers = document.querySelectorAll(".mega-long-delay-slow
 const rotate70Movers = document.querySelectorAll(".rotate-cc-70"); //rotate 70deg from clockwise (rotation is CC)
 const rotate270UpRightMovers = document.querySelectorAll(".from-rotate-c-270-up-right"); //rotate 70deg from clockwise (rotation is CC)
 
-const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver(
+  (entries) => {
     entries.forEach((entry) => {
       entry.target.classList.toggle("show", entry.isIntersecting); //this is for testing and can be removed
       if (entry.isIntersecting) {
@@ -22,7 +23,11 @@ const observer = new IntersectionObserver((entries) => {
     });
   },
   {
-    threshold: 0.3, //the amount of the element that must be visible in the viewport before the observer fires
+    threshold: 0.3, 
+    /*
+    this threshold is the amount of the element that must be physically visible in the viewport before the observer fires (
+    NOTE: if your app is meant to be primarily for mobile use, I would recommend
+    */
   }
 );
 
@@ -63,5 +68,5 @@ extraLongDelayMovers.forEach((move) => {
 
 //MEGA LONG delay + SLOW transitions get class .mega-long-delay-slow-move
 megaLongDelaySlowMovers.forEach((move) => {
-    observer.observe(move);
-  });
+  observer.observe(move);
+});

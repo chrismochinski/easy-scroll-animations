@@ -65,8 +65,3 @@ extraLongDelayMovers.forEach((move) => {
 megaLongDelaySlowMovers.forEach((move) => {
     observer.observe(move);
   });
-
-//extra fast transitions get class .fast-move
-// rotate70Movers.forEach((move) => {
-//   observer.observe(move);
-// });

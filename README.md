@@ -45,7 +45,7 @@
 
 No need to mess around with these in any CSS file if you don't want to! They're already set up. However, feel free to take a look at things such as the delay duration. You can tweak all kinds of features! Reference the included sample.html file for a few examples, and change them around to get a feel for things!
 
-I'll continue to update this repo with more animations as I get time.
+##### _( I'll do my best to update this repo with more animations and features as I have time, and I'll update this README accordingly )_
 
 ---
 ## AS ALWAYS - don't hesitate to reach out to me if you have questions! Always happy to help if I can!

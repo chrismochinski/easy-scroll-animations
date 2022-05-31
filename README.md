@@ -54,7 +54,7 @@ No need to mess around with these in any CSS file if you don't want to! They're 
 <img align="left" src="readme-signature-pic.png" alt="mo" style="width:140px; margin: 10px">
 
 
-_[My Website](https://chrismochinski.com)_ <br />
+_[My Website](chrismochinski.com)_ <br />
 _[My LinkedIn](https://www.linkedin.com/in/chrismochinski/)_ <br />
 _[My Twitter (@HolyMosesMusic)](https://twitter.com/holymosesmusic)_ <br />
 _[My GitHub](https://github.com/chrismochinski)_ <br />
